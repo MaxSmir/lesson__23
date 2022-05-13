@@ -72,13 +72,13 @@ public:
 
         m_pQuad = new Mesh();
 
-        if (!m_pQuad->LoadMesh("C:/Users/sofya/source/repos/lr4 IiKG/lesson 23/lesson 23/Content/quad.obj")) {
+        if (!m_pQuad->LoadMesh("C:/Users/sofya/source/repos/lr4 IiKG/lesson 23/Content/quad.obj")) {
             return false;
         }
 
         m_pMesh = new Mesh();
 
-        return m_pMesh->LoadMesh("C:/Users/sofya/source/repos/lr4 IiKG/lesson 23/lesson 23/Content/phoenix_ugv.md2");
+        return m_pMesh->LoadMesh("C:/Users/sofya/source/repos/lr4 IiKG/lesson 23/Content/phoenix_ugv.md2");
     }
 
     void Run()
